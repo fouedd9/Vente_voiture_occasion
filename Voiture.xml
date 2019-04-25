@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<?xml-stylesheet type="text/xsl" href="voiture.xsl" ?>
-<!DOCTYPE voitures SYSTEM "voiture.dtd">
+<?xml-stylesheet type="text/xsl" href="./voiture.xsl" ?>
+<!DOCTYPE voitures SYSTEM "./voiture.dtd">
 
 <voitures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="voiture.xsd">
     <voiture annee="2006" marque="Renault" modele="TWINGO 1.2 PACK CLIM ">
@@ -43,7 +43,7 @@
         <caroccas garantie="non" reprise="non"/>
     </voiture>
     
-    <voiture annee="2004" marque="Citroen" modele="C3 1.4 HDI société">
+    <voiture annee="2004" marque="Citroen" modele="C3 1.4 HDI sociÃ©tÃ©">
         <kilometrage>18350</kilometrage>
         <couleur>#FDFEFE</couleur>
         <photo>tn_Citroen-C3-1.4-L-Hdi-societe.jpg</photo>
