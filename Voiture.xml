@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="voiture.xsl" ?>
+<!DOCTYPE voitures SYSTEM "voiture.dtd">
+
+<voitures xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="voiture.xsd">
+    <voiture annee="2006" marque="Renault" modele="TWINGO 1.2 PACK CLIM ">
+        <kilometrage>13495</kilometrage>
+        <couleur>#C39BD3</couleur>
+        <photo>tn_twingo_clim.jpg</photo>
+        <prix>5000</prix>
+        <caroccas garantie="oui" reprise="non"/>
+    </voiture>
+    
+    <voiture annee="2000" marque="Audi" modele="TT 1.8 TURBO ">
+        <kilometrage>100000</kilometrage>
+        <couleur>#CCD1D1</couleur>
+        <photo>tn_AUDI_TT_gris_3.JPG</photo>
+        <prix>10000</prix>
+        <caroccas garantie="non" reprise="non"/>
+    </voiture>
+    
+    <voiture annee="2005" marque="BMW" modele="Mini ONE D pack">
+        <kilometrage>18753</kilometrage>
+        <couleur>#17202A</couleur>
+        <photo>tn_mini_one_D_02_12_09.jpg</photo>
+        <prix>15000</prix>
+        <caroccas garantie="oui" reprise="non"/>
+    </voiture>
+    
+    <voiture annee="2004" marque="Citroen" modele="PICASSO 1.6L hdi">
+        <kilometrage>28434</kilometrage>
+        <couleur>#85C1E9</couleur>
+        <photo>tn_citroen.jpg</photo>
+        <prix>31995</prix>
+        <caroccas garantie="non" reprise="non"/>
+    </voiture>
+    
+    <voiture annee="2004" marque="Renault" modele="Megane II 1.5 Dci 105cv ">
+        <kilometrage>22422</kilometrage>
+        <couleur>#1A5276</couleur>
+        <photo>tn_IMG_0215.jpg</photo>
+        <prix>31995</prix>
+        <caroccas garantie="non" reprise="non"/>
+    </voiture>
+    
+    <voiture annee="2004" marque="Citroen" modele="C3 1.4 HDI société">
+        <kilometrage>18350</kilometrage>
+        <couleur>#FDFEFE</couleur>
+        <photo>tn_Citroen-C3-1.4-L-Hdi-societe.jpg</photo>
+        <prix>32995</prix>
+        <caroccas garantie="oui" reprise="non"/>
+    </voiture>
+    
+    <voiture annee="2005" marque="Toyota" modele="Corolla Verso 7">
+        <kilometrage>12163</kilometrage>
+        <couleur>#F39C12</couleur>
+        <photo>tn_toyota_corolla_verso_7places_D4D.jpg</photo>
+        <prix>31995</prix>
+        <caroccas garantie="oui" reprise="oui"/>
+    </voiture>
+    
+    <voiture annee="2004" marque="Seat" modele="IBIZA 1,4 Tdi">
+        <kilometrage>23182</kilometrage>
+        <couleur>#F9E79F</couleur>
+        <photo>tn_seat_ibiza_1_4_TDI_fresh_80ch.jpg</photo>
+            <prix>31995</prix>
+            <caroccas garantie="oui" reprise="oui"/>
+    </voiture>
+    
+    <voiture annee="2003" marque="Alfa Romeo" modele="147 1.9 JTD">
+        <kilometrage>37775</kilometrage>
+        <couleur>#E74C3C</couleur>
+        <photo>tn_6a00d8341c575953ef00e55230a2898834-800wi.jpg</photo>
+        <prix>22995</prix>
+        <caroccas garantie="non" reprise="non"/>
+    </voiture>
+    
+    <voiture annee="2006" marque="Mercedes" modele="Classe A 190 ELEGANCE">
+        <kilometrage>11503</kilometrage>
+        <couleur>#17202A</couleur>
+        <photo>tn_IMG_0254.jpg</photo>
+        <prix>22995</prix>
+        <caroccas garantie="oui" reprise="oui"/>
+    </voiture>
+    <voiture annee="2003" marque="Audi" modele="A3 II SPORTBACK">
+        <kilometrage>42670</kilometrage>
+        <couleur>#515A5A</couleur>
+        <photo>tn_audi_A3_sportback_TDI_140.jpg</photo>
+        <prix>23995</prix>
+        <caroccas garantie="non" reprise="oui"/>
+    </voiture>
+    
+    <voiture annee="2003" marque="Audi" modele="A6 III 2L TDI">
+        <kilometrage>48405</kilometrage>
+        <couleur>#F5B041</couleur>
+        <photo>tn_15122009387.jpg</photo>
+        <prix>22995</prix>
+        <caroccas garantie="non" reprise="non"/>
+    </voiture>
+    </voitures>
+    

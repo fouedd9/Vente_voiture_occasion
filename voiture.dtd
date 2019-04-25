@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT voitures (voiture*)>
+<!ELEMENT voiture (kilometrage | couleur | photo | prix | caroccas)+>
+<!ELEMENT kilometrage (#PCDATA)>
+<!ELEMENT couleur (#PCDATA)>
+<!ELEMENT photo (#PCDATA)>
+<!ELEMENT prix (#PCDATA)>
+<!ELEMENT caroccas (#PCDATA)>
+<!ATTLIST voiture
+  annee CDATA #REQUIRED
+  marque CDATA #REQUIRED
+  modele CDATA #REQUIRED
+  > 
+  <!ATTLIST caroccas
+  garantie CDATA #REQUIRED
+  reprise CDATA #REQUIRED
+  > 
+<!ATTLIST  voitures
+xmlns:xsi CDATA #IMPLIED
+xsi:noNamespaceSchemaLocation CDATA #IMPLIED
+>

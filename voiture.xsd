@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    <xs:element name="voitures">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element minOccurs="0" maxOccurs="unbounded" ref="voiture" />
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    
+    <xs:element name="voiture">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="kilometrage" type="xs:string"/>
+                <xs:element name="couleur" type="xs:string"/>
+                <xs:element name="photo" type="xs:string"/>
+                <xs:element name="prix" type="xs:string"/>
+                <xs:element name="caroccas"/> 
+            </xs:sequence>
+            <xs:attribute name="annee" type="xs:string"/>
+            <xs:attribute name="marque" type="xs:string"/>
+            <xs:attribute name="modele" type="xs:string"/>
+        </xs:complexType>
+    </xs:element>
+    <xs:element name="typecaroccas">
+    <xs:complexType>
+        <xs:attribute name="garantie" type="xs:string"/>
+        <xs:attribute name="reprise" type="xs:string"/>
+    </xs:complexType>
+    </xs:element>
+    <xs:simpleType name="typeImage">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[/a-zA-z0-9\._-]{1,250}\.(jpg|JPG|jpeg|JPEG|PNG|png)"/>
+        </xs:restriction>
+    </xs:simpleType>
+    
+    
+    
+    
+</xs:schema>
+
+
+
+
+
+
